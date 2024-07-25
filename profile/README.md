@@ -10,3 +10,4 @@ Modules will conform to general best practices.  In addition, the following stan
 2. Limited use of `create` bools - There will be no `create_<principal_resource>` variables for conditional creation.  If you don't want to create the resource, don't call the module.
 3. No additional *.tf files - Only `main.tf`, `outputs.tf`, and `variables.tf` will be used.
 4. Terraform Test - Tests will be utilized to verify the continued operation of code.
+5. No political statements within the code - README files and otherwise are open to expressing support for freedom and against violence, but the code will not have variables or logic implementing *easter egg* political statements.
